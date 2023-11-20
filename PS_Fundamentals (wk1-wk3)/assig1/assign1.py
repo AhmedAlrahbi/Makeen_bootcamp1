@@ -1,4 +1,19 @@
 #Here u will find answers for problem 2&3 of the assignment 1 20/11/2023
+
+#1. update: since I forgot the algorithm steps on the document: 
+# 1. Read input values for Rockwell hardness, Carbon content, and Tensile strength.
+# 2. Check the conditions:
+#    a. If Rockwell hardness > 50 and Carbon content > 0.7 and Tensile strength > 5600:
+#       - Output: Grade 10
+#    b. Else if Rockwell hardness > 50 and Carbon content > 0.7 and Tensile strength <= 5600:
+#       - Output: Grade 9
+#    c. Else if Rockwell hardness <= 50 and Carbon content > 0.7 and Tensile strength > 5600:
+#       - Output: Grade 8
+#    d. Else if Rockwell hardness > 50 and Carbon content <= 0.7 and Tensile strength > 5600:
+#       - Output: Grade 7
+#    e. Else:
+#       - Output: Grade 0
+
 #2. Tuition problem
 def tuition():
     tuition = 10000
